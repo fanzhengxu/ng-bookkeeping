@@ -1,0 +1,20 @@
+<view class="section">
+  <view class="msg_header">
+    <view class="msg">名称</view>
+    <view class="msg">是否启用</view>
+  </view>
+  <radio-group name="payType" class="title">
+    <view class="section section_gap setting" wx:for="{{payTypeList}}" wx:key="id" wx:for-item="item">
+      <view class="little_setting">{{item.name}}</view>
+      <view class="body-view">
+        <switch checked="{{item.enable}}" id="{{item.id}}" bindchange="switchChange" />
+      </view>
+      <view class="del" catchtap="del" data-id="{{item.id}}">删除</view>
+    </view>
+  </radio-group>
+</view>
+<navigator url="/pages/createConfigure/createPayType/createPayType">
+  <view class="btn-area">
+    <button formType="submit">新增支付方式</button>
+  </view>
+</navigator>

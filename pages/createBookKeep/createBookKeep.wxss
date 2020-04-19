@@ -1,0 +1,21 @@
+.section__title {
+  text-align: center;
+  line-height: 70rpx;
+  background-color: aliceblue;
+  color: black;
+}
+
+.section {
+  line-height: 100rpx;
+  padding: 0rpx 0rpx 20rpx 0rpx;
+}
+
+.section_gap {
+  text-align: center;
+  line-height: 100rpx;
+  padding: 0rpx 0rpx 20rpx 0rpx;
+}
+
+.title-detail {
+  padding-left: 90rpx;
+}

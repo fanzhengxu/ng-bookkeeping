@@ -1,0 +1,17 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section_gap">
+    <view class="section__title">用途</view>
+    <input type="text" confirm-type="done" name="name" placeholder="输入用途名称" />
+  </view>
+  <view class="section_gap">
+    <view class="section__title">是否启用</view>
+    <radio-group name="enable" class="title">
+      <label><radio class="title-detail" value="true" checked="true"/>启用</label>
+      <label><radio class="title-detail" value="false"/>禁用</label>
+    </radio-group>
+  </view>
+  <view class="btn-area">
+    <button formType="submit">添加</button>
+    <button formType="reset">重置</button>
+  </view>
+</form>

@@ -1,0 +1,12 @@
+<view class="out">
+  <navigator url="/pages/report/reportOfDay/reportOfDay">
+    <view>
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"> 日报 </button>
+    </view>
+  </navigator>
+  <navigator url="/pages/report/reportOfMonth/reportOfMonth">
+    <view>
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"> 月报 </button>
+    </view>
+  </navigator>
+</view>

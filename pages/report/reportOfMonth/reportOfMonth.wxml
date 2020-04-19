@@ -1,0 +1,16 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">月份</view>
+    <view class="th">账单金额</view>
+  </view>
+  <block wx:for="{{reportOfMonthData}}" wx:key="id" wx:for-item="item">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.MONTH}}</view>
+      <view class="td">{{item.SUM}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.MONTH}}</view>
+      <view class="td">{{item.SUM}}</view>
+    </view>
+  </block>
+</view>

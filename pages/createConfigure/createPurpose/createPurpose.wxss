@@ -1,0 +1,54 @@
+.section__title {
+  text-align: center;
+  line-height: 70rpx;
+  background-color: aliceblue;
+  color: black;
+}
+
+.section {
+  line-height: 400rpx;
+  padding: 0rpx 0rpx 20rpx 0rpx;
+}
+
+.section_gap {
+  text-align: center;
+  line-height: 100rpx;
+  padding: 0rpx 0rpx 20rpx 0rpx;
+}
+
+.title-detail {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.little {
+  text-align: center;
+  line-height: 80rpx;
+  background-color: #405f80;
+  color: white;
+  font-size: 27rpx;
+  padding-right: 100rpx;
+}
+
+.setting{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+}
+
+.little_setting {
+  padding-right: 200rpx;
+}
+
+.msg_header {
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  background-color: aliceblue;
+  color: black;
+}
+
+.msg {
+  padding: 0rpx 30rpx 0rpx 180rpx;
+}

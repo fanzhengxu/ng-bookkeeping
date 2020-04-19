@@ -1,0 +1,12 @@
+<view class="out">
+  <navigator url="/pages/createBookKeep/createBookKeep">
+    <view>
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"> 新增账单 </button>
+    </view>
+  </navigator>
+  <navigator url="/pages/createConfigure/createConfigure">
+    <view>
+      <button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="warn"> 我的配置 </button>
+    </view>
+  </navigator>
+</view>

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/report/reportOfDay/reportOfDay",
+    "pages/createConfigure/createPayType/createPayType",
+    "pages/posts/posts",
+    "pages/createConfigure/createConfigure",
+    "pages/createBookKeep/createBookKeep",
+    "pages/logs/logs",
+    "pages/createConfigure/myPayType/myPayType",
+    "pages/report/report",
+    "pages/createConfigure/myPurpose/myPurpose",
+    "pages/createConfigure/createPurpose/createPurpose",
+    "pages/report/reportOfMonth/reportOfMonth"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/posts/posts",
+        "text": "记账",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "统计",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      }
+    ]
+  }
+}

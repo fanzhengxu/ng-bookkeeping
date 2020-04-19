@@ -1,0 +1,12 @@
+<view class="out">
+  <navigator url="/pages/createConfigure/myPayType/myPayType">
+    <view>
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary" catchtap="createBookKeep"> 我的支付方式 </button>
+    </view>
+  </navigator>
+  <navigator url="/pages/createConfigure/myPurpose/myPurpose">
+    <view>
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary" catchtap="createBookKeep"> 我的用途 </button>
+    </view>
+  </navigator>
+</view>

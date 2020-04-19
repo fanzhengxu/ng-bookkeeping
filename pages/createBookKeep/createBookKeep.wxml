@@ -1,0 +1,46 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <view class="section__title">支付方式</view>
+    <radio-group name="payType" class="title">
+      <label wx:for="{{payTypeMaps}}" wx:key="id" wx:for-item="item">
+        <radio class="title-detail" value="{{item.id}}" />{{item.name}}
+      </label>
+    </radio-group>
+  </view>
+  <view class="section">
+    <view class="section__title">用途</view>
+    <radio-group name="purpose">
+       <label wx:for="{{purposeMaps}}" wx:key="id" wx:for-item="item">
+        <radio class="title-detail" value="{{item.id}}" />{{item.name}}
+      </label>
+    </radio-group>
+  </view>
+  <view class="section_gap">
+    <view class="section__title">金额</view>
+    <input type="digit" confirm-type="done" name="amount" placeholder="输入金额" />
+  </view>
+  <view class="section">
+    <view class="section__title">账单日期</view>
+    <picker mode="date" value="{{date}}" start="1990-01-01" end="2050-01-01" bindchange="bindDateChange">
+      <view class="picker">
+        选择日期: {{date}}
+      </view>
+    </picker>
+  </view>
+  <view class="section">
+    <view class="section__title">账单时间</view>
+    <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+      <view class="picker">
+        选择时间: {{time}}
+      </view>
+    </picker>
+  </view>
+  <view class="section_gap">
+    <view class="section__title">备注</view>
+    <input type="text" confirm-type="done" name="msg" placeholder="备注信息" />
+  </view>
+  <view class="btn-area">
+    <button formType="submit">新增</button>
+    <button formType="reset">重置</button>
+  </view>
+</form>
